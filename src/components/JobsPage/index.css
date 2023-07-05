@@ -1,0 +1,84 @@
+.title {
+  color: white;
+}
+.star-icon {
+  color: yellow;
+  margin-right: 10px;
+}
+.rating {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.job-card-container {
+  background-color: #272727;
+  height: 40vh;
+  margin: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.company-logo-image {
+  height: 60px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.first-part-container {
+  display: flex;
+  align-items: center;
+}
+.location {
+  color: white;
+  margin-left: 10px;
+}
+.employ {
+  color: white;
+  margin-left: 10px;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.employ-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.location-and-employ {
+  display: flex;
+  margin: 10px;
+}
+.second-part-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.package {
+  color: white;
+  margin-right: 25px;
+}
+.description-heading {
+  color: white;
+  margin-top: 5px;
+}
+.description {
+  color: white;
+  margin-top: 10px;
+}
+.links {
+  text-decoration: none;
+}

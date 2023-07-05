@@ -1,0 +1,50 @@
+.nav-bar {
+  background-color: #272727;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0px;
+}
+.website-logo {
+  height: 8vh;
+  margin-left: 15px;
+}
+.list-items {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.home {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jobs {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logout-button {
+  background-color: #4f46e5;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 575px) {
+  .nav-bar-mobile {
+    font-size: 15px;
+  }
+}
